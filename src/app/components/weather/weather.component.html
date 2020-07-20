@@ -1,0 +1,99 @@
+<app-layout>
+    <div class="backBtn">
+        <a (click)="back()"><img src="{{ backIcon }}" alt="back"></a>
+    </div>
+    <div class="m-top-weather m-bottom-weather">
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="d-flex flex-column">
+                <div class="d-flex flex-column justify-content-center align-items-center">            
+                    <span class="city-name">{{ weatherData.location.name }}</span>
+                    <span class="city-weather">{{ weatherData.current.condition.text }}</span>
+                    <div class="d-flex flex-row tempData">
+                        <span class="temp">{{ currentTemp }}</span>
+                        <div class="d-flex flex-column justify-content-center m-top-1">
+                            <span class="tempDetails">C°</span>
+                            <div class="d-flex flex-column m-top-2">
+                                <span class="tempDetails"> <img src="{{ tempMaxIcon }}" alt=""> {{ weatherData.forecast.forecastday[0].day.maxtemp_c }} </span>
+                                <span class="tempDetails"> <img src="{{ tempMinIcon }}" alt=""> {{ weatherData.forecast.forecastday[0].day.mintemp_c }} </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column align-items-center tempBig">
+                    <img class="icone-grande" src="{{ tempIcon }}" alt="iconeG">
+                </div>
+                <div class="d-flex flex-column dayDetails">
+                    <div class="d-flex flex-row justify-content-around">
+                        <div class="d-flex flex-column align-items-center justify-content-between">
+                            <span class="item">dawn</span>
+                            <img src="{{ dawnIcon }}" alt="">
+                            <p><span>0 C°</span></p>
+                        </div>
+                        <div class="d-flex flex-column align-items-center justify-content-between">
+                            <span class="item">morning</span>
+                            <img src="{{ morningIcon }}" alt="">
+                            <p><span>0 C°</span></p>
+                        </div>
+                        <div class="d-flex flex-column align-items-center justify-content-between">
+                            <span class="item">afternoon</span>
+                            <img src="{{ afternoonIcon }}" alt="">
+                            <p><span>0 C°</span></p>
+                        </div>
+                        <div class="d-flex flex-column align-items-center justify-content-between">
+                            <span class="item">night</span>
+                            <img id="reduce" src="{{ nightIcon }}" alt="">
+                            <p><span>0 C°</span></p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row justify-content-around margin">
+                        <div class="d-flex flex-row">
+                            <div class="d-flex flex-column align-items-center box">
+                                <span class="item">wind speed</span>
+                                <span class="sub-item">{{ weatherData.current.wind_kph }} kph</span>
+                            </div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="d-flex flex-row">
+                            <div class="d-flex flex-column align-items-center box">
+                                <span class="item">sunrise</span>
+                                <span class="sub-item">{{ weatherData.forecast.forecastday[0].astro.sunrise }}</span>
+                            </div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="d-flex flex-row">
+                            <div class="d-flex flex-column align-items-center box">
+                                <span class="item">sunset</span>
+                                <span class="sub-item">{{ weatherData.forecast.forecastday[0].astro.sunset }}</span>
+                            </div>
+                            <div class="line"></div>
+                        </div>
+                        <div class="d-flex flex-row">
+                            <div class="d-flex flex-column align-items-center box">
+                                <span class="item">humidity</span>
+                                <span class="sub-item">{{ weatherData.current.humidity }} %</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="my-container">
+        <ng-template #customLoadingTemplate>
+            <div class="custom-class">
+                <h3>
+                    Loading...
+                </h3>
+                <button (click)="showAlert()">
+                    Click me!
+                </button>
+            </div>
+        </ng-template>     
+        <ngx-loading
+            [show]="loading"
+            [config]="{ backdropBorderRadius: '3px' }"
+            [template]="customLoadingTemplate">
+        </ngx-loading>
+    </div>
+</app-layout>

@@ -1,0 +1,26 @@
+<app-layout>
+    <div class="d-flex justify-content-center align-items-center m-top-home">
+        <div class="d-flex flex-column">
+            <span class="weather">WEATHER</span>
+            <span class="select">select a city</span>
+            <img src="../../assets/img/worldwide.svg" alt="worldwide" id="earth">
+            <div id="cities">
+<!--                 <div class="d-flex justify-content-between linha">
+                    <div *ngFor="let city of cities">
+                        <a (click)="selectCity(city)">{{city}}</a>
+                    </div>
+                </div> -->
+                 <div class="d-flex justify-content-between line">
+                    <a (click)="selectCity(cities[0].name)">{{ cities[0].name }}</a>
+                    <a (click)="selectCity(cities[1].name)">{{ cities[1].name }}</a>
+                    <a (click)="selectCity(cities[2].name)">{{ cities[2].name }}</a>
+                </div>
+                <div class="d-flex justify-content-between line">
+                    <a (click)="selectCity(cities[3].name)">{{ cities[3].name }}</a>
+                    <a (click)="selectCity(cities[4].name)">{{ cities[4].name }}</a>
+                    <a (click)="selectCity(cities[5].name)">{{ cities[5].name }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</app-layout>

@@ -1,0 +1,41 @@
+.m-top-home {
+  margin-top: 75px;
+}
+
+.weather {
+    color: #FFFFFF;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 36px;
+    text-align: center;
+  }
+
+  .select {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 200;
+    letter-spacing: 0;
+    line-height: 29px;
+    text-align: center;
+  }
+
+  #earth {
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+
+  #cities {
+    color: #FFFFFF;
+    font-family: Spartan;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 23px;
+  }
+
+  .line {
+    margin-bottom: 36px;
+  }
+
+  .line a {
+    padding: 0 10px;
+  }

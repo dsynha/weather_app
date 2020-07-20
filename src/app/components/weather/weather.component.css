@@ -1,0 +1,99 @@
+.backBtn {
+  margin-top: 15px;
+  padding-left: 15px;
+}
+
+.m-top-weather {
+  margin-top: 35px;
+}
+
+.m-bottom-weather {
+  margin-bottom: 50px;
+}
+
+.city-name {
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 35px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.city-weather {
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 28px;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+.temp {
+  font-size: 93px;
+  letter-spacing: 0;
+  line-height: 110px;
+  text-align: center;
+}
+
+.icone-grande {
+  height: 110px;
+  width: 110px;
+}
+
+.item {
+  font-size: 14px;
+}
+
+.sub-item {
+  font-size: 12px;
+}
+
+.tempData {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.tempDetails {
+  font-size: 12px;
+}
+
+.tempDetails:first-child {
+  text-align: right;
+}
+
+.m-top-1 {
+  margin-top: -20px;
+}
+
+.m-top-2 {
+  margin-top: 20px;
+}
+
+.tempBig {
+  margin-bottom: 45px;
+}
+
+.dayDetails {
+  text-align: center;
+}
+
+.dayDetails img {
+  width: 36px;
+  height: 36px;
+}
+
+.margin {
+  margin-top: 30px;
+}
+
+.box{
+  margin: -15px 10px;
+}
+
+.box span {
+  margin: 3px 5px;
+}
+
+.line {
+  border: solid 0.5px #fff;
+  height: 24px;
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="20px" viewBox="0 0 23 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 59 (101010) - https://sketch.com -->
+    <title>2E120492-EAE6-4DBB-BD2D-5D05D07D4A9E</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="25.6472649%" x2="50%" y2="88.8189853%" id="linearGradient-1">
+            <stop stop-color="#E0E0E0" offset="0%"></stop>
+            <stop stop-color="#A6A6A6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Snowy-example" transform="translate(-28.000000, -28.000000)">
+            <rect fill="transparent" x="0" y="0" width="1024" height="768"></rect>
+            <rect id="Rectangle" fill="transparent" x="0" y="0" width="1024" height="768"></rect>
+            <g id="left-arrow" transform="translate(28.000000, 28.000000)" fill="#1F1F1F" fill-rule="nonzero">
+                <polygon id="Path" points="22.55555 8.06665 6.44445 8.06665 12.08335 2.4278 9.6667 0.01115 2.84217094e-14 9.6778 9.66665 19.34445 12.0833 16.9278 6.44445 11.2889 22.55555 11.2889"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

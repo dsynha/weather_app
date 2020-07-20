@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 59 (101010) - https://sketch.com -->
+    <title>07C5C08E-E4A7-445A-A698-C1F568987B59</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="28.9509562%" x2="50%" y2="88.8189853%" id="linearGradient-1">
+            <stop stop-color="#57CBDC" offset="0%"></stop>
+            <stop stop-color="#3BA1B5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Sunny-example" transform="translate(-645.000000, -491.000000)">
+            <rect fill="transparent" x="0" y="0" width="1024" height="768"></rect>
+            <rect id="Rectangle" stroke="#979797" fill="transparent" x="0" y="0" width="1024" height="768"></rect>
+            <g id="moon" transform="translate(647.000000, 493.000000)" fill-rule="nonzero" stroke="#FFFFFF" stroke-width="2.1">
+                <path d="M0,11.651279 C0,6.26903596 3.4433432,1.69102947 8.24728909,0 C8.23745127,0.223649607 8.23248077,0.448563175 8.23248077,0.674638071 C8.23248077,9.01020642 14.9897935,15.7675193 23.3253622,15.7675193 C23.5514368,15.7675193 23.7763507,15.7625485 24,15.7527107 C22.3089708,20.5566566 17.7309642,24 12.3487212,24 C5.52871044,24 0,18.4712896 0,11.651279 L0,11.651279 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

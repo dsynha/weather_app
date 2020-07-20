@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;531;600;700;800;900&display=swap');
+
+html {
+    width: auto !important;
+    height: auto !important;
+}
+
+body{
+    font-family: 'Spartan', sans-serif;
+}
